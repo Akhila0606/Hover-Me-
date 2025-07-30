@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Box</title>
+    <style>
+        body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+      background-color: hotpink;
+      color: white;
+      padding: 70px 90px;
+      border-radius: 25px;
+      font-size: 25px;
+      font-family: serif;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .button:hover {
+      background-image: repeating-linear-gradient(to bottom right, lightgreen,lightskyblue,orange);
+      transform: rotate(10deg);
+      border-radius: 50px;
+      color: blue;
+      text-align: center;
+      padding:120px 130px ;
+    }
+  </style>
+</head>
+<body>
+  <div class="button">Hover Me!</div>
+</body>
+</html>
